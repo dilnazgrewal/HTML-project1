@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <fieldset>
+        <legend>Homework 1</legend>
+        <form>
+        <h1>Application Form</h1>
+        <label for="fname">First Name:</label>
+        <input type="text" name="namefirst" id="fname">
+        <label for="lname">Last Name:</label>
+        <input type="text" name="namefirst" id="lname">
+        <br>
+        <br>
+        <label for="date">Date of birth:</label>
+        <input type="date" name="date" id="date" >
+        <label for="age">Age:</label>
+        <input type="number" id="age" min="1" max="60">
+        <br>
+        <br>
+        <label for="gender">Gender:</label>
+        <select name="gender" id="gender">
+            <option value="Male">Male</option>
+            <option value="Female">Female</option>
+            <option value="Other">Other</option>
+        </select>
+        <label for="mail">Email Address</label>
+        <input type="email" name="mail" id="mail" placeholder="Enter email address">
+        <br>
+        <br>
+        
+        Position Available:
+
+        <input type="radio" name="radio" value="Junior Developer" id="jd">
+        <label for="jd">Junior Developer</label>
+        
+        <input type="radio" name="radio" value="Mid-level-Developer" id="md">
+        <label for="md">Mid-level-Developer</label>
+
+        <input type="radio" name="radio" value="Senior Developer" id="sd">
+        <label for="sd">Senior Developer</label>
+
+        <br>
+        <br>
+        
+        Programming Languages:
+
+        <input type="checkbox" id="java">
+        <label for="java">Java</label>
+        
+        <input type="checkbox" id="js">
+        <label for="js">JavaScript</label>
+
+        <input type="checkbox"  id="Python">
+        <label for="Python">Python</label>
+
+        <br>
+        <br>
+
+        <label for="passcode">Password:</label>
+        <input type="password" id="passcode">
+
+        <label for="passcode">Confirm Password:</label>
+        <input type="password" id="passcode">
+        <br>
+        <br>
+        <button>Submit</button>
+        <button>Confirm Paasword</button>
+        </form>
+    </fieldset>
+
+    <fieldset>
+        <legend>Homework 2</legend>
+        <table border="1">
+            <tr>
+                <td rowspan="3">Day</td>
+                <td colspan="3"><strong>Seminar</strong></td>
+            </tr>
+            <tr>
+                <td colspan="2">Schedule</td>
+                <td rowspan="2">Topic</td>
+            </tr>
+            <tr>
+                <td>Begin</td>
+                <td>End</td>
+            </tr>
+            <tr>
+                <td rowspan="3">Monday</td>
+            </tr>
+            <tr>
+                <td rowspan="2">8:00 a.m.</td>
+                <td rowspan="2">5:00 p.m.</td>
+                <td>
+                    Introduction to XML
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    Validity DTD and Relax NG
+                </td>
+            </tr>
+            <tr>
+            <td rowspan="3">Thursday</td>
+            <td>8:00 a.m.</td>
+            <td>11:00 a.m.</td>
+            <td>XPath</td>
+        </tr>
+        <tr>
+            <td>11:00 a.m.</td>
+            <td>2:00 p.m.</td>
+            <td>XSL Transformations</td>
+        </tr>
+        <tr>
+            <td>2:00 p.m.</td>
+            <td>5:00 p.m.</td>
+            <td>XSL Transformations</td>
+        </tr>
+            <tr>
+                <td>Wednesday</td>
+                <td>8:00 a.m.</td>
+                <td>12:00 p.m.</td>
+                <td>XSL Formatting Objects</td>
+            </tr>
+        </table>
+    </fieldset>
+</body>
+</html>
